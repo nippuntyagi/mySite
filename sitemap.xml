@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://nippuntyagi.in/</loc>
+  <lastmod>2016-12-05T14:24:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://nippuntyagi.in/files/NippunTyagi.pdf</loc>
+  <lastmod>2016-10-08T14:30:02+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://nippuntyagi.in/blog/</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://nippuntyagi.in/blog/aboutme/</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://nippuntyagi.in/blog/can-india-go-cashless/</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://nippuntyagi.in/blog/author/admin/</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://nippuntyagi.in/blog/category/economy/</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://nippuntyagi.in/blog/rules-for-professional-web-design/</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://nippuntyagi.in/blog/category/internet/</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://nippuntyagi.in/blog/category/internet/web-design/</loc>
+  <changefreq>weekly</changefreq>
+</url>
+</urlset>

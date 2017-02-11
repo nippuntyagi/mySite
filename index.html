@@ -4,15 +4,27 @@
 	<meta charset="utf-8"> 
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Nippun - Full Stack Software Developer</title>
+	<title>Nippun Tyagi - Full Stack Software Developer</title>
 	<meta name="title" content="Nippun - Full Stack Software Developer">
 	<meta name="keywords" content="Full Stack Software Developer, Angular js Software Developer, Javascript Software Developer, HTML5 Developer, CSS Developer, Graphic Designer, Bootstrap Developer, PHP Developer, Java Developer">
-	<meta name="description" content="Nippun Tyagi full stack software developer working as Freelancer having EXPERIENCE of more than 1 year in development with technologies like Javascript, Angular.js, Mysql, MongoDB, HTML5, CSS, PHP, Jquery, AJAX, Bootstrap, Java.">
-
+	<meta name="description" content="Nippun, full stack software developer having EXPERIENCE of more than 2 year in Web & App development">
+         
+    <link rel='shortcut icon' href='/images/nippuntyagi.ico' type='image/x-icon'/ >
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/mystyle.css">
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome-4.6.3/css/font-awesome.css">
+        <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
+        ga('create', 'UA-85058369-1', 'auto');
+        ga('send', 'pageview');
+
+       </script>
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+       <script src="./javascript/contact_form.js"></script>
 
 	
 </head>
@@ -149,7 +161,7 @@
                 <div class="stats col-sm-2 col-md-2">
                     <div class="about-stats">
                         <h3>HOBBIES</h3>
-                        <p>Movie, Cricket, Computer Programming</p>
+                        <p>Movie, Cricket, computer programming</p>
                     </div>
                 </div>
                 <div class="stats col-sm-2 col-md-2">
@@ -191,7 +203,7 @@
         <div class='row'>
             <div class="button">
                 <div class="buttonsection"> 
-                    <a class="btn button-winona btn-name btn-primary" data-text="Download My Resume" href="./files/nippuntyagi.pdf" download>
+                    <a class="btn button-winona btn-name btn-primary" data-text="Download My Resume" href="files/NippunTyagi.pdf" download>
                         <span class="name">DOWNLOAD MY RESUME</span></a> 
                 </div>
                 <div class="buttonsection"> 
@@ -202,6 +214,20 @@
         </div>
         <div class='row' style="margin:20px 0px 20px;">
             <div class="workexpirence"><h2 class="section-title"><i class="fa fa-flag"></i>&nbsp; Work Experience</h2></div>
+            		<div class="resume-item col-xs-11 col-md-11">
+                    <!-- Work Place -->
+                        <h3 class="section-item-title">Zipboard</h3>
+                    <!-- /Work Place -->
+                    <!-- Job Time -->
+                        <h4 class="job">Software Development Engineer - <span class="job-date">Dec 2016 - Present</span></h4>
+                    <!-- /Job Time-->
+                    <!-- content -->
+                        <div class="graduation-description">
+                            <p>As a Software Development Engineer my role is to maintain zipboard application, adding new features, & increasing UI Experirnce </p>
+                        </div>
+                    <!-- /Content -->
+                    </div>
+
                     <div class="resume-item col-xs-11 col-md-11">
                     <!-- Work Place -->
                         <h3 class="section-item-title">Brainguru Technologies</h3>
@@ -589,11 +615,12 @@
                 </div>
             </div>
             <div class="contactform col-md-4">
-                <form action="mailto:nippuntyagi@yahoo.com" method="post" enctype="text/plain">
-                    <input type="text" name="username" class="text" placeholder="Enter Your Name" size="" /><br /><br />
-                    <input type="email" name="email" class="text" placeholder="Enter Your Email" size="" /><br /><br />
-                    <textarea rows="5" class="textarea" placeholder="Leave Your Comments"></textarea><br /><br />
-                    <input type="submit" name="submit" class="submit btn button-winona btn-name btn-primary" value="Submit Your Query">
+                <form id="form" method="post">
+                     <p id="returnmessage" style="color:#ffffff;"></p>
+                    <input type="text" name="name" id="name" class="text" placeholder="Enter Your Name" size="" /><br /><br />
+                    <input type="email" name="email" id="email" class="text" placeholder="Enter Your Email" size="" /><br /><br />
+                    <textarea rows="5" name="comments" id="comments" class="textarea" placeholder="Leave Your Comments"></textarea><br /><br />
+                    <input type="button" name="submit" id="submit" class="submit btn button-winona btn-name btn-primary" value="Submit Your Query">
                 </form>
             </div>
         </div>
@@ -613,9 +640,10 @@
             <!--<li><a href="#portfolio"><i class="fa fa-home fa-block"></i><span>Portfolio</span></a></li>-->
                 <li><a href="#contact"><i class="fa fa-phone-square fa-block"></i><span> Contact</span>
                 </a></li>
+                <li><a href="./blog"><i class="fa fa-calendar-o "></i><span>Blog</span></a></li>
             </ul>
         </div>
         </div>
     </div>
 </body>
-</html>
+</html>	
