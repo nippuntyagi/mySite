@@ -1,0 +1,809 @@
+/*home css*/
+@media only screen and (max-width: 786px) {
+    .home .intro-text{
+        max-width: 340px;
+        margin: 0px auto;
+        padding:0px 20%;
+    }
+    .skew-neg{
+        border-width: 0px 0px 0px 3px;
+        transform: skew(-4deg);
+    }
+
+    .home .intro-text .intro-lead-in {
+        padding-left: 30px; 
+        font-size: 13px;
+    }
+
+    .home .intro-text .intro-heading {
+        font-size: 24px; 
+        line-height: 30px; 
+        padding-left: 30px;
+    }
+}
+
+.home {
+    color: rgb(255, 255, 255);
+    background-attachment: fixed;
+    background-image: url('../images/banner.jpg');
+    background-position: center center;
+    background-size: cover;
+    padding: 15% 0px;
+}
+
+.home .intro-text{
+    max-width: 768px;
+    margin: 0px auto;
+}
+
+.home .intro-text .skew-neg{
+	border-width: 0px 0px 0px 6px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    transform: skew(-8deg);
+}
+
+.home .intro-text .skew-neg .skew-pos {
+	padding: 40px 0px;
+    transform: skew(8deg);
+}
+
+.intro-lead-in {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    padding-left: 70px;
+    color: rgb(255, 255, 255);
+}
+
+.intro-heading {
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 65px;
+    padding-left: 70px;
+}
+
+/* Menu Section Css*/
+.menu {
+    display: block;
+    position: fixed;
+    right: 20px;
+    top: 200px;
+    z-index: 99999;
+}
+
+.menu ul {
+    display: table-cell;
+    list-style: outside none none;
+    margin: 0px;
+    padding: 10px;
+    vertical-align: middle;
+}
+@media screen and (max-width:768px) {
+    .menu{
+        visibility: hidden;
+        right: 0px;
+        top: 0px;
+    } 
+}
+
+.menu a {
+    color: white;
+    display: block;
+    position: relative;
+    transition: all 0.5s ease 0s;
+    white-space: nowrap;
+    width: 10px;
+    height: 35px;
+    background-color: transparent;
+    border-color: rgb(0, 45, 179); 
+}
+
+.menu a .fa{
+  position: absolute;
+  color: #08aeac;
+  font-size: 2em; 
+ }
+
+.menu a span {
+    visibility: hidden;
+    padding: 10px;
+    position: absolute;
+    right: 20px;
+    top: 0px;
+    transition: all 0.3s ease 0s;
+    width: 120px;
+    color: rgb(255, 255, 255);
+    text-align: right;
+    text-transform: uppercase;
+    background: transparent url('../images/menu.png') no-repeat scroll right top / cover;
+    transition: .30s;
+    color: rgb(0,255,255);
+}
+
+.menu a:hover span{
+  visibility: visible;
+}
+
+/* About CSS*/
+
+.about p {
+    font-weight: 700;
+    font-size: 1em;
+    text-align: justify;
+}
+
+.about .header-wrapper {
+    text-align: left;
+    max-width: 320px;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+.about .header-wrapper .skew-neg{
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-width: 0px 5px;
+    transform: skew(-15deg);
+}
+
+.about h1.section-heading {
+    margin-top: 0px;
+    margin-bottom: 15px;
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 800;
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.text{
+  position: relative;
+  float: none;
+  margin-top:00px;
+}
+
+.about .buttonsection{
+    text-align: center;
+    position: relative;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 20px 0px;
+}
+
+.about .button-winona {
+    overflow: hidden;
+    padding: 0px;
+    transition-property: border-color, background-color;
+    transition-duration: 0.3s, 0.3s;
+    transition-delay: 0s, 0s;
+    transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+    position: relative;
+}
+
+.about .btn-primary {
+    background: rgb(255, 255, 255) none repeat scroll 0% 0%;
+    color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+    transition: background;
+    transition: all 0.5s ease-in-out;
+    box-shadow: inset -0 0 0 0 #08aeac;
+}
+
+.about .btn {
+    letter-spacing: 1px;
+    text-decoration: none;
+    background: transparent none repeat scroll 0% 0%;
+    -moz-user-select: none;
+    border-radius: 0px;
+    cursor: pointer;
+    display: inline-block;
+    margin-bottom: 0px;
+    vertical-align: middle;
+    white-space: nowrap;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: 3px solid;
+    padding: 8px 20px;
+}
+
+.about .btn-primary:hover{
+  background: #08aeac none repeat scroll 0% 0%;
+    color: rgb(255, 255 , 255);
+    border-color: rgb(0, 0, 0);
+    box-shadow: inset -300px 0 0 0 #08aeac;
+    transition: all 0.5s ease-in-out; 
+}
+
+.about .name{
+    font-family: "Arizonia",cursive;
+    text-transform: none;
+    font-size: 28px;
+    line-height: 42px;
+    padding: 0px 10px;
+}
+
+.stats_sec{
+    display: table;
+    text-align: center;
+    margin: auto;
+}
+
+.stats_sec .stats{
+    position: relative;
+    min-height: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: auto;
+    display: inline-block;
+    
+}
+
+.about-stats > h3 {
+    display: table-caption;
+    border-width: 1px 1px medium;
+    border-style: solid solid none;
+    border-image: none;
+    text-align: center;
+    margin-bottom: 0px;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 39px;
+    min-height: 39px;
+    min-width: 190px;
+}
+
+.about-stats > p {
+    display: table-cell;
+    border: 1px solid rgb(0, 0, 0);
+    border-width: 1px 1px medium;
+    text-align: center;
+    margin-bottom: 0px;
+    font-size: 16px;
+    line-height: 39px;
+    min-height: 39px;
+    min-width: 190px;
+}
+
+/* Social*/
+
+.social{
+    text-align: center;
+    position: relative;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+ul.social-buttons li{
+  display: inline-block;
+}
+
+ul.social-buttons li a {
+    background-color: transparent;
+    color: rgb(37, 37, 37);
+    display: inline-block;
+    font-size: 24px;
+    font-weight: bold;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    width: 45px;
+    margin: 0px 4px 20px;
+    box-shadow: 0px 0px 0px 3px rgb(0, 0, 0);
+    
+}
+
+ul.social-buttons li a:hover{
+    color: rgb(255, 255, 225);
+}
+
+ul.social-buttons li a:hover{
+    box-shadow: 0px 0px 0px 4px rgb(0, 0, 0);
+    transition: color 0.3s ease 0s;
+}
+
+/*Resume Css */
+
+.resume .header-wrapper {
+    text-align: center;
+    max-width: 320px;
+    margin-left: 20px;
+    display: block;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+.resume .header-wrapper .skew-neg{
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-width: 0px 5px;
+    transform: skew(-15deg);
+}
+
+.resume h2.section-heading {
+    margin-top: 0px;
+    margin-bottom: 15px;
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 800;
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.resume .button{
+    text-align: center;
+    position: relative;
+    float: none;
+    display: block;
+}
+
+.resume .buttonsection{
+    text-align: center;
+    position: relative;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 20px 0px;
+    display: inline-block;
+}
+
+.resume .button-winona {
+    overflow: hidden;
+    padding: 0px;
+    transition-property: border-color, background-color;
+    transition-duration: 0.3s, 0.3s;
+    transition-delay: 0s, 0s;
+}
+
+.resume .btn-primary {
+    background: rgb(255, 255, 255) none repeat scroll 0% 0%;
+    color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+    transition: background;
+    transition: all 0.5s ease;
+    box-shadow: inset 0 0 0 0 #08aeac;
+}
+
+.resume .btn {
+    letter-spacing: 1px;
+    text-decoration: none;
+    background: transparent none repeat scroll 0% 0%;
+    -moz-user-select: none;
+    border-radius: 0px;
+    cursor: pointer;
+    display: inline-block;
+    margin-bottom: 0px;
+    vertical-align: middle;
+    white-space: nowrap;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: 3px solid;
+    padding: 8px 20px;
+}
+
+.resume .btn-primary:hover{
+    color: rgb(255, 255 , 255);
+    border-color: rgb(0, 0, 0);
+    box-shadow: inset -300px 0 0 0 #08aeac;
+    transition: all 0.5s ease-in-out;
+}
+
+
+
+.resume .section-title {
+    font-weight: bold;
+    color: #08aeac;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -1px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-left: 4px solid #08aeac;
+}
+
+.resume-item {
+    padding: 15px;
+    border: 4px double #ccc;
+    margin-bottom: 15px;
+    margin-right: 100px;
+}
+
+.resume .section-item-title {
+    font-weight: bold;
+    color: #021533;
+    color: #333;
+    padding-left: 0;
+    margin-left: 0;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 0;
+    margin-bottom: 8px;
+    letter-spacing: -1px;
+}
+
+.resume p {
+    font-weight: 700;
+    font-size: 1em;
+    text-align: justify;
+}
+
+.resume .graduation-time, .job {
+    line-height: 15px;
+    font-style: italic;
+    color: #555;
+    font-size: 10px;
+    margin-top: 5px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+/* Skills CSS*/
+.skills {
+    position: relative;
+    color: rgb(255, 255, 255);
+    background-attachment: fixed;
+    background-image: url('../images/skillset.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+
+.skills .header-wrapper {
+    text-align: center;
+    max-width: 320px;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+.skills .header-wrapper .skew-neg{
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-width: 0px 5px;
+    transform: skew(-15deg);
+}
+
+.skills h2.section-heading {
+    margin-top: 0px;
+    margin-bottom: 15px;
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 800;
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.section-item-title-2 {
+    font-weight: bold;
+    
+    color: #333;
+    padding-left: 40px;
+    
+    line-height: 22px;
+    margin: 8% 0px;
+    letter-spacing: -1px;
+    border-bottom: 1px dotted #021533;
+    padding-bottom: 5px;
+}
+
+.skills-list {
+    list-style: none;
+    margin-bottom: 40px;
+}
+
+.progress {
+    position: relative;
+    height: 25px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+}
+
+.progress-bar {
+    background: #08aeac;
+    width: 20%;
+    float: left;
+    height: 100%;
+    font-size: 12px;
+    line-height: 20px;
+    color: #fff;
+    text-align: center;
+    -webkit-box-shadow: inset 0 -1px 0 rgba(0,0,0,.15);
+    box-shadow: inset 0 -1px 0 rgba(0,0,0,.15);
+    -webkit-transition: width .6s ease;
+    transition: width .6s ease;
+}
+
+
+.progress > .progress-type {
+    position: absolute;
+    left: 0px;
+    height: 100%;
+    font-size: 13px;
+    padding: 3px 30px 2px 10px;
+    color: #000000;
+    background-color: rgba(254, 255, 25, .5);
+}
+
+
+.progress > .progress-completed {
+    position: absolute;
+    right: 0px;
+    font-weight: 800;
+    padding: 3px 10px 2px;
+    color: #000;
+    font-size: 14px;
+}
+
+
+
+
+/* Work process*/
+.work_process{
+    margin-bottom: 20px;
+}
+
+.work_process .header-wrapper {
+    text-align: center;
+    max-width: 320px;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+.work_process .header-wrapper .skew-neg{
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-width: 0px 5px;
+    transform: skew(-15deg);
+}
+
+.work_process h2.section-heading {
+    margin-top: 0px;
+    margin-bottom: 15px;
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 800;
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.work_process .lifecycle h4{
+    text-align: center;
+    font-weight: 700;
+}
+
+.work_process .lifecycle{
+    text-align: center;
+    font-weight: 700;
+    padding: 0% 0px 5%;
+}
+
+.work_process .lifecycle ul {
+    font-weight: 700;
+    font-size: 1em;
+    text-align: left;
+}
+
+.work_process .lifecycle span{
+    height:110px;
+    width: auto;
+}
+
+.work_process .lifecycle .fa-tablet{
+    font-size:110px;
+    color: #08aeac;
+}
+.work_process .lifecycle .fa-list-ul{
+    font-size:40px;
+    margin-top:25px; 
+}
+
+.work_process .lifecycle .fa-code{
+    font-size:40px; 
+    font-weight: bold;
+    margin-top:25px;
+}
+
+.work_process .lifecycle .fa-search{
+    font-size:80px; 
+    transform: rotate(45deg);
+    color: #08aeac;
+}
+
+.work_process .lifecycle .fa-flask{
+    font-size:100px;
+    color: #08aeac; 
+}
+
+.work_process .lifecycle .fa-rocket{
+    font-size:110px; 
+    transform: rotate(-45deg);
+    color: #08aeac;
+}
+.work_process .lifecycle .wrench1{
+    font-size:100px; 
+    transform: rotate(0deg);
+    color: #08aeac;
+}
+.work_process .lifecycle .wrench2{
+    font-size:100px; 
+    transform: rotate(275deg);
+    color: #08aeac;
+}
+.work_process .lifecycle .data{
+    background-color: #08aeac;
+    width: auto;
+    height: 300px;
+    padding-top: 10px;
+    margin: auto;
+}
+/*ContactMe Css*/
+
+
+.contact{
+    margin-top: 0px;
+    position: relative;
+    background-attachment: fixed;
+    background-image: url('../images/contact.jpg');
+    background-position: center center;
+    background-size: auto;
+    padding-bottom: 0%;
+    bottom: 0;
+}
+
+.contact .header-wrapper {
+    text-align: center;
+    max-width: 320px;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+.contact .header-wrapper .skew-neg{
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-width: 0px 5px;
+    transform: skew(-15deg);
+}
+
+.contact h2.section-heading {
+    margin-top: 0px;
+    margin-bottom: 15px;
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 800;
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.mapsec {
+    padding: 8% 1% 8%;
+}
+
+.contactme {
+    padding: 8% 0px 8%;
+    text-align: center;
+}
+
+.contactinfo{
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.contactinfo .contactdetail{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    font-size: 18;
+}
+
+.contactme .social > h3{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 22;
+    margin-left: 0px;
+    padding-bottom: 20px;
+}
+
+.contactform
+{   
+    padding:10% 0% 8%;
+}
+
+.contactform form
+{   
+    text-align: center;
+}
+
+.contactform .text{
+    height:30px;
+    width:300px;
+}
+
+.contactform .textarea{
+    width:300px;
+}
+
+.contactform .button{
+    text-align: center;
+    position: relative;
+    display: block;
+}
+
+.contactform .buttonsection{
+    text-align: center;
+    position: relative;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 20px 0px;
+    display: inline-block;
+}
+
+.contactform .button-winona {
+    overflow: hidden;
+    padding: 0px;
+    transition-property: border-color, background-color;
+    transition-duration: 0.3s, 0.3s;
+    transition-delay: 0s, 0s;
+}
+
+.contactform .btn-primary {
+    background: rgb(255, 255, 255) none repeat scroll 0% 0%;
+    color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+    transition: background;
+    transition: all 0.5s ease;
+    box-shadow: inset 0 0 0 0 #08aeac;
+}
+
+.contactform .btn {
+    letter-spacing: 1px;
+    text-decoration: none;
+    background: transparent none repeat scroll 0% 0%;
+    -moz-user-select: none;
+    border-radius: 0px;
+    cursor: pointer;
+    display: inline-block;
+    margin-bottom: 0px;
+    vertical-align: middle;
+    white-space: nowrap;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: 3px solid;
+    padding: 8px 20px;
+}
+
+.contactform .btn-primary:hover{
+    color: rgb(255, 255 , 255);
+    border-color: rgb(0, 0, 0);
+    box-shadow: inset -300px 0 0 0 #08aeac;
+    transition: all 0.5s ease-in-out;
+}
