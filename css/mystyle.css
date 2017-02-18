@@ -136,7 +136,7 @@
 }
 
 .about .header-wrapper {
-    text-align: left;
+    text-align: center;
     max-width: 320px;
     margin-left: 20px;
     padding-top: 10px;
@@ -149,7 +149,7 @@
     transform: skew(-15deg);
 }
 
-.about h1.section-heading {
+.about h2.section-heading {
     margin-top: 0px;
     margin-bottom: 15px;
     font-size: 32px;
