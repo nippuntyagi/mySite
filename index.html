@@ -8,7 +8,7 @@
 	<meta name="title" content="Nippun - Full Stack Software Developer">
 	<meta name="keywords" content="Full Stack Software Developer, Angular js Software Developer, Javascript Software Developer, HTML5 Developer, CSS Developer, Graphic Designer, Bootstrap Developer, PHP Developer, Java Developer">
 	<meta name="description" content="Nippun, full stack software developer having EXPERIENCE of more than 2 year in Web & App development">
-    <link rel='shortcut icon' href='/images/nippuntyagi.ico' type='image/x-icon'/ >
+    <link rel='shortcut icon' href='./images/nippuntyagi.ico' type='image/x-icon'/ >
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/mystyle.css">
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome-4.6.3/css/font-awesome.min.css">
@@ -612,10 +612,11 @@
             </div>
             <div class="contactform col-md-4">
                 <form id="form" method="post">
-                     <p id="returnmessage" style="color:#ffffff;"></p>
-                    <input type="text" name="name" id="name" class="text" placeholder="Enter Your Name" size="" /><br /><br />
-                    <input type="email" name="email" id="email" class="text" placeholder="Enter Your Email" size="" /><br /><br />
-                    <textarea rows="5" name="comments" id="comments" class="textarea" placeholder="Leave Your Comments"></textarea><br /><br />
+                     <spam id="returnmessage" style="color:#ffffff;"></spam>
+                     <spam id="returnmessages" style="color:#ffffff;"></spam><br />
+                    <input type="text" name="name" id="name" class="text" placeholder="Enter Your Name" size="" /><br /><spam id="returnname" style="color:#ffffff;"></spam><br/>
+                    <input type="email" name="email" id="email" class="text" placeholder="Enter Your Email" size="" /><br /><spam id="returnemail" style="color:#ffffff;"></spam><br />
+                    <textarea rows="5" name="comments" id="comments" class="textarea" placeholder="Leave Your Comments"></textarea><br /><spam id="returncomment" style="color:#ffffff;"></spam><br />
                     <input type="button" name="submit" id="submit" class="submit btn button-winona btn-name btn-primary" value="Submit Your Query">
                 </form>
             </div>
@@ -628,15 +629,15 @@
         <div class='container-fluid'>
         <div class='row'>
             <ul>
-                <li><a href="#home"><i class="fa fa-home fa-block"></i> <span>Home</span></a></li>
-                <li><a href="#about"><i class="fa fa-user fa-block"></i><span>About</span></a></li>
-                <li><a href="#resume"><i class="fa fa-book fa-block"></i><span>Resume</span></a></li>
-                <li><a href="#skills"><i class="fa fa-code fa-block"></i><span>Skills</span></a></li>
-                <li><a href="#work_process"><i class="fa fa-cog fa-block"></i><span>Process</span></a></li>
+                <li><a><i class="fa fa-home fa-block gohome"></i> <span>Home</span></a></li>
+                <li><a><i class="fa fa-user fa-block goabout"></i><span>About</span></a></li>
+                <li><a><i class="fa fa-book fa-block goresume"></i><span>Resume</span></a></li>
+                <li><a><i class="fa fa-code fa-block goskills"></i><span>Skills</span></a></li>
+                <li><a><i class="fa fa-cog fa-block gowork_process"></i><span>Process</span></a></li>
             <!--<li><a href="#portfolio"><i class="fa fa-home fa-block"></i><span>Portfolio</span></a></li>-->
-                <li><a href="#contact"><i class="fa fa-phone-square fa-block"></i><span> Contact</span>
+                <li><a><i class="fa fa-phone-square fa-block gocontact"></i><span> Contact</span>
                 </a></li>
-                <li><a href="./blog"><i class="fa fa-calendar-o "></i><span>Blog</span></a></li>
+                <li><a href="./blog"><i class="fa fa-calendar-o goblog"></i><span>Blog</span></a></li>
             </ul>
         </div>
         </div>

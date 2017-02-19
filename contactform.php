@@ -28,6 +28,6 @@ $sendmessage = wordwrap($sendmessage, 70);
 mail($email, $subject, $sendmessage, $headers);
 echo "Your Query has been received, We will contact you soon.";
 } else {
-echo "not a valid email";
+echo "Not a valid email";
 }
 ?>
