@@ -10,9 +10,9 @@ $subject = "Message Recieved Will Contact Soon";
 // To send HTML mail, the Content-type header must be set.
 $headers = 'MIME-Version: 1.0' . "\r\n";
 $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
-$headers .= 'From: contact@nippuntyagi.in' . "\r\n";      // Sender's Email
+$headers .= 'From: nippuntyagi.@yahoo.com' . "\r\n";      // Sender's Email
 //$headers .= 'Reply-To: contact@nippuntyagi.in' . "\r\n"; 
-$headers .= 'Bcc: contact@nippuntyagi.in' . "\r\n";      //Carbon copy to Sender
+$headers .= 'Bcc: nippuntyagi.@yahoo.com' . "\r\n";      //Carbon copy to Sender
 $template = '<div style="padding:50px; color:white;">Hello ' . $name . ',<br/>'
 . '<br/>Thank you...! For Contacting Us.<br/><br/>'
 . 'Name:' . $name . '<br/>'
